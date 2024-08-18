@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YVGalaxy</title>
+    <link rel="stylesheet" href="./css/YV.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <div id="main">
+        <!-- header -->
+        <div id="header">
+            <ul id="nav">
+                <li><a  href="#">Home</a></li>
+                <li>
+                    <a href="#missions">Missions 
+                        <i class="fa-solid fa-chevron-down nav-arrow-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#solar">Parker Solar Probe</a></li> 
+                        <li><a href="#artemis">Artemis I</a></li>
+                        <li><a href="#hubble">Hubble Space Telescope </a></li>
+                        <li><a href="#juno">Juno: Mission at Jupiter </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#galleries">Galleries
+                        <i class="fa-solid fa-chevron-down nav-arrow-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#img-day">Image of the Day</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form class="search-btn">
+                <input type="text" name="" placeholder="Search" required id="title" class="form-control" >
+                <i id="title" class="search-icon fa-solid fa-magnifying-glass"></i>
+            </form>  
+        </div>
+        <!-- content -->
+        <div id="content">
+            <!-- missions -->
+            <div id="missions" class="grad">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">MISSIONS</h2>
+                    <p class="section-sub-heading text-white">All missions </p> 
+                    <div class="row content-list">
+                        
+                        <div class="col col-four">
+                            <img src="./img/solar.jpeg" alt="solar" id="solar" class="item-img">
+                            <div class="item-body">
+                                <h3 class="item-heading">Parker Solar Probe </h3>
+                                <p class="item-title">Parker Solar Probe Completes 12th Perihelion</p>
+                                <p class="item-description">Matching its own records for speed and distance to the Sun, NASA’s Parker Solar Probe completed its 12th close approach to the Sun on June 1, coming within 5.3 million miles (8.5 million kilometers) of the solar surface.</p>
+                                <form action="https://blogs.nasa.gov/parkersolarprobe/2022/06/02/parker-solar-probe-completes-12th-perihelion/">
+                                    <button class="btn" type="submit">Read The Article</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/artemis.jpeg" alt="Artermis" id="artermis" class="item-img">
+                            <div class="item-body">
+                                <h3 class="item-heading">Artemis 1</h3>
+                                <p class="item-title">NASA to Discuss Status of Artemis I Moon Mission</p>
+                                <p class="item-description">NASA will hold a media teleconference at 11 a.m. EDT Wednesday, July 20, to discuss next steps for the Artemis I mission with the Space Launch System (SLS) rocket and Orion spacecraft at the agency’s Kennedy Space Center in Florida.</p>
+                                <form action="https://www.nasa.gov/press-release/nasa-to-discuss-status-of-artemis-i-moon-mission-1">
+                                    <button class="btn" type="submit">Read The Article</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/hubble.jpg" alt="hubble" id="hubble" class="item-img">
+                            <div class="item-body">
+                                <h3 class="item-heading">Hubble Space Telescope </h3>
+                                <p class="item-title">NASA Telescopes Capture Stellar Delivery Service for Black Hole</p>
+                                <p class="item-description">Astronomers may have witnessed a galaxy’s black hole delivery system in action. A new study using data from NASA’s Chandra X-ray Observatory and Hubble Space Telescope outlines how a large black hole may have been delivered to the spiral galaxy NGC 4424 by another, smaller galaxy.</p>
+                                <form action="https://www.nasa.gov/image-feature/goddard/2022/hubble-captures-a-galactic-menagerie">
+                                    <button class="btn" type="submit">Read The Article</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/juno.jpg" alt="juno" id="juno" class="item-img">
+                            <div class="item-body">
+                                <h3 class="item-heading">Juno: Mission at Jupiter </h3>
+                                <p class="item-title">NASA Telescope Spots Highest-Energy Light Ever Detected From Jupiter</p>
+                                <p class="item-description">The planet’s auroras are known to produce low-energy X-ray light. A new study finally reveals higher-frequency X-rays and explains why they eluded another mission 30 years ago.</p>
+                                <form action="https://www.nasa.gov/feature/jpl/nasa-telescope-spots-highest-energy-light-ever-detected-from-jupiter">
+                                    <button class="btn" type="submit">Read The Article</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- galleries -->
+            <div id="galleries" class="galleries-section grad">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">GALLERIES</h2>
+                    <p class="section-sub-heading text-white">All images </p>
+                    <!-- image of the day -->
+                    <div id="img-day" class="row items-list">
+                        <p class="sub-content text-white text-center">Image of the Day</p>
+                        <div class="col col-four">
+                            <img src="./img/day1.png" alt="day1" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Webb Captures Stellar Gymnastics in The Cartwheel Galaxy</p>
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/day2.jpg" alt="day2" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">NASA Pays Tribute to Nichelle Nichols</p>
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/day3.jpg" alt="day3" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Zeta Ophiuchi: A Star With a Complicated Past</p>
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/day4.jpg" alt="day4" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Vortices Near Jupiter’s North Pole</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ultra High-Def Videos -->
+                    <div id="uhdv" class="row items-list">
+                        <p class="sub-content text-white text-center">Ultra High-Def Videos</p>
+                        <div class="col col-four">
+                            <img src="./img/uhdv1.jpg" alt="uhdv1" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Moon Phases 2022 – Northern Hemisphere – 4K</p>
+                                <!-- <form action="./video/y2mate.com - Moon Phases 2022  Northern Hemisphere  4K_1080p.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/uhdv2.jpg" alt="uhdv2" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Moon Phases 2022 – Southern Hemisphere – 4K</p>
+                                <!-- <form action="./video/y2mate.com - Moon Phases 2022  Southern Hemisphere  4K_1080p (1).mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/uhdv3.jpg" alt="uhdv3" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">NASA Psyche Mission: Charting a Metallic World</p>
+                                <!-- <form action="./video/y2mate.com - NASA Psyche Mission Charting a Metallic World_1080p.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/uhdv4.jpg" alt="uhdv4" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">OSIRIS-REx Slings Orbital Web Around Asteroid to Capture Sample | 4K</p>
+                                <!-- <form action="./video/y2mate.com - OSIRISREx Slings Orbital Web Around Asteroid to Capture Sample  4K_1080pFHR.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Videos -->
+                    <div id="videos" class="row items-list">
+                        <p class="sub-content text-white text-center">Videos</p>
+                        <div class="col col-four">
+                            <img src="./img/vd1.jpg" alt="vd1" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Orion’s Journey - Part 1: Leaving Earth</p>
+                                <!-- <form action="./video/y2mate.com - Orions Journey  Part 1 Leaving Earth_1080p.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/vd2.jpg" alt="vd2" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Orion’s Journey - Part 2: Entering Distant Retrograde Orbit (DRO)</p>
+                                <!-- <form action="./video/y2mate.com - Orions Journey  Part 2 Entering Distant Retrograde Orbit DRO_1080p.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/vd3.jpg" alt="vd3" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Orion’s Journey - Part 3: Returning Home</p>
+                                <!-- <form action="./video/y2mate.com - Orions Journey  Part 3 Returning Home_1080p.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                        <div class="col col-four">
+                            <img src="./img/vd4.jpg" alt="vd4" class="item-img">
+                            <div class="item-body">
+                                <p class="item-heading">Together We Rise</p>
+                                <!-- <form action="./video/y2mate.com - Together We Rise_1080p.mp4">
+                                    <button class="btn" type="submit">Watching video</button>
+                                </form> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact -->
+            <div id="contact" class="grad">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">CONTACT</h2>
+                    <p class="section-sub-heading text-white">We offer an all-inclusive viewing experience for any event big or small. We understand your needs and we will upgrade it to meet the greatest criteria of all of them, both appearance and experience. Don't hesitate to contact us.</p>
+                    <p class="section-sub-heading text-white">You can also contact us by phone 0973405910 or Facebook: Nguyen Trong Phuc, or you can send us a message here:</p>
+                    <div class="input-content">
+                        <p><input class="input-sub border-top" type="text" placeholder="Name" required name="Name"></p>
+                        <p><input class="input-sub" type="number" placeholder="How many people" required name="People"></p>
+                        <p><input class="input-sub" type="datetime-local" placeholder="Date and time" required name="date" value="2022-08-05T08:00"></p>
+                        <p><input class="input-sub border-bottom" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+                        <p><button class="btn btn-send" type="submit">SEND MESSAGE</button></p>
+                    </div>
+                </div>
+            </div>
+        <!-- footer -->
+        <div id="footer">
+            <div class="subfoot">
+                <form class="content-section-fl">
+                    <p class="section-sub-heading-fl text-white">Follow us</p>
+                    <p class="item-heading text-white text-center">Hotline: 0366470974 / 0973405910</p>
+                    <div class="follow-content">
+                        <p class="item-heading text-white text-center">Legal Representative:Nguyen Thanh Nam </p>
+                        <p class="item-heading text-white text-center">Company President: Nguyen Trong Phuc </p>
+                        <p class="item-heading text-white text-center">Human Resource Management: Trieu Cuong Phat </p>
+                        <p class="item-heading text-white text-center">Secretary: Ly Nhu Thao </p>     
+                    </div> 
+                   <div class="clear"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const test = document.querySelectorAll(  ".btn-send");
+        test.forEach((item) => item.addEventListener("click", messageComingSoon));
+        function messageComingSoon() {
+        alert("Thank you for contacting us");
+        }
+    </script>
+</body>
+</html>
